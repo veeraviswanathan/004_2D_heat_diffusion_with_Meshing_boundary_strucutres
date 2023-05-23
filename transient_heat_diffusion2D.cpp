@@ -199,7 +199,7 @@ int main()
 		
 		//Write output file		
    		sprintf(fname, "user_heat_diffusion_transient_explicit_%f.out", time_now);			
-		if(iter%1000==0 || iter==1)
+		if(iter%1000==0)
 		{
 			fp=fopen(fname,"w");
 			for(j=0;j<n_nodes_y;j++)
