@@ -20,7 +20,7 @@ int main()
 	double delta_x = (double)length_x / n_nodes_x;
 	double delta_y = (double)length_y / n_nodes_y;
 	
-	double Tl = 600, Tr = 273; //left and right boundary condition (K)
+	double Tl = 600, Tr = 400; //left and right boundary condition (K)
 	double Tinit = 300; // initial temperature for domain
 	double k = 2e-3; // Diffusivity (m2/s)
 
